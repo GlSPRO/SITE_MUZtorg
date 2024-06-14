@@ -1,52 +1,50 @@
 {
-    "Strings":[
-        {
-            "id": 1,
-            "key": "1",
-            "name": "Gitar",
-            "price": 1000,
-            "count": 1
-        },
-        {
-            "id": 2,
-            "key": "2",
-            "name": "Electric_Guitar",
-            "price": 2000,
-            "count": 2
-        },
-        {
-            "id": 3,
-            "key": "3",
-            "name": "Bass_Guitar",
-            "price": 3000,
-            "count": 3
-        }
-    ],
-    
-    "Keyboards":[
-        {
-            "id": 1,
-            "key": "1",
-            "name": "Piano",
-            "age": 20,
-            "salary": 1000
-        },
-        {
-            "id": 2,
-            "key": "2",
-            "name": "Synthesizer",
-            "age": 30,
-            "salary": 2000
-        },
-        {
-            "id": 3,
-            "key": "3",
-            "name": "MIDI_Keyboard",
-            "age": 40,
-            "salary": 3000
-        }
-
-    ]
-
-
+  "catalog": [
+    {
+      "id": "1",
+      "myId": "1",
+      "name": "Gitar",
+      "price": 1000,
+      "count": 1
+    },
+    {
+      "id": "2",
+      "myId": "2",
+      "name": "Electric_Guitar",
+      "price": 2000,
+      "count": 2
+    },
+    {
+      "id": "3",
+      "myId": "3",
+      "name": "Bass_Guitar",
+      "price": 3000,
+      "count": 3
+    }
+  ],
+  "Keyboards": [
+    {
+      "id": "1",
+      "myId": "1",
+      "name": "Piano",
+      "age": 20,
+      "salary": 1000
+    },
+    {
+      "id": "2",
+      "myId": "2",
+      "name": "Synthesizer",
+      "age": 30,
+      "salary": 2000
+    },
+    {
+      "id": "3",
+      "myId": "3",
+      "name": "MIDI_Keyboard",
+      "age": 40,
+      "salary": 3000
+    }
+  ],
+  "shopping": [],
+  "favorites": []
 }
