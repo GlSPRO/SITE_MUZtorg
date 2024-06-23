@@ -14,9 +14,8 @@ function App() {
   
   const [card, setCart] = useState([]);
   const [shopping, setshoppingCart] = useState([]);
-  const [search, setsearchCart] = useState([]);
+  const [search, setSearch] = useState('');
   const [favor, favoritesCart] = useState([]);
-
 
 
   useEffect(() => {
@@ -64,7 +63,8 @@ value={{
   favor,
   favoritesCart,
   search,
-  setsearchCart,
+  
+  setSearch,
   isAdded,
 }}
 >
@@ -81,10 +81,13 @@ value={{
           setshoppingCart = {setshoppingCart}
           favoritesCart = {favoritesCart}
           favor = {favor}
+          setSearch = {setSearch}
+          search = {search}
 
           />
         }
       />
+
       <Route
         path='/shopping'
         element={

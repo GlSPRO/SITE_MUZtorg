@@ -46,5 +46,13 @@
     }
   ],
   "shopping": [],
-  "favorites": []
+  "favorites": [
+    {
+      "id": "1",
+      "myId": "1",
+      "name": "Gitar",
+      "price": 1000,
+      "count": 1
+    }
+  ]
 }
